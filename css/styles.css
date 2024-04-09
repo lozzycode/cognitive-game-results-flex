@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --black-color: #000000;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+   display: flex;
+   background-color: #ffffff;
+   gap: 10px;
+   width: 100%;
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.col-1 {
+   background-color: rgb(90, 32, 250);
+}
+
+.col2 {
+   
+}
+
+.result {
+   background-color: rgb(68, 0, 255);
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+}
+
+.number {
+   color: #ffffff;
+}
+
+.percent {
+   color: grey;
+}
+
+
+
+
+h1 {
+  color: var(--black-color);
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+
+a:hover {
+  color: pink;
+}
+
+
